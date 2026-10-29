@@ -1,0 +1,57 @@
+# Audio — jangan commit rekaman asli atau hasil render
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.aif
+*.ogg
+*.m4a
+
+# Folder kerja besar
+song/stems/
+song/out/
+song/out3/
+song/fl_stems/
+stems/
+
+# Screenshot & file diagnosa
+*.png
+*.jpg
+*.jpeg
+*.bmp
+z_*.png
+c_*.png
+q*.png
+r_*.png
+as*.png
+at*.png
+after*.png
+before*.png
+now.png
+tb.png
+
+# Sampah Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Dump & probe sementara
+*.npy
+*_dump.json
+*_probe*.py
+events_dump.json
+trk.txt
+map.txt
+*.log
+
+# Kredensial
+.env
+.env.*
+*.key
+secrets.json
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

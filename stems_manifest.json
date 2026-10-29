@@ -1,0 +1,118 @@
+{
+ "stems": {
+  "01_Drums": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.8779296875,
+   "src": "Drums",
+   "sample_identical": true,
+   "maxdiff": 0.0
+  },
+  "02_Bass": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.6092529296875,
+   "src": "Bass",
+   "sample_identical": true,
+   "maxdiff": 0.0
+  },
+  "03_Guitar": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.746185302734375,
+   "src": "Guitar",
+   "sample_identical": true,
+   "maxdiff": 0.0
+  },
+  "04_Piano": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.824798583984375,
+   "src": "Piano",
+   "sample_identical": true,
+   "maxdiff": 0.0
+  },
+  "05_Vocals-lead": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.98797607421875,
+   "src": "Vocals-lead",
+   "sample_identical": true,
+   "maxdiff": 0.0
+  },
+  "06_Vocals-background": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.704833984375,
+   "src": "Vocals-background",
+   "sample_identical": true,
+   "maxdiff": 0.0
+  },
+  "07_Pro-other": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.66644287109375,
+   "src": "Pro-other",
+   "sample_identical": true,
+   "maxdiff": 0.0
+  },
+  "08_Strings": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.852226972579956,
+   "src": "synth"
+  },
+  "09_Cello": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.6161547899246216,
+   "src": "synth"
+  },
+  "10_Timpani": {
+   "sr": 44100,
+   "ch": 2,
+   "n": 10126107,
+   "dur": 229.6169387755102,
+   "peak": 0.8013355731964111,
+   "src": "synth"
+  }
+ },
+ "n": 10126107,
+ "sr": 44100,
+ "offset": 0.065,
+ "bar": 3.0,
+ "orch_gain_db": -6.0,
+ "peak_target_db": -1.5,
+ "master_gain_db": -4.353,
+ "song_rms": -11.649,
+ "orch_rms": -15.887,
+ "orch_peak_db": 3.052,
+ "raw_rms": -11.256,
+ "raw_peak_db": 2.853,
+ "mix_rms": -15.609,
+ "mix_peak_db": -1.5,
+ "ref_rms": -11.226,
+ "ref_peak_db": -0.298,
+ "corr_song_recovered": 1.0,
+ "resid_db": -240.0,
+ "original_stems_untouched": true,
+ "all_same_length": true
+}
