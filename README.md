@@ -22,6 +22,7 @@ orchestra.py        Sintesis 3 stem orkestra (Strings, Cello, Timpani)
 export_stems.py     Ekspor 10 stem sinkron + mix, gain staging per bagian
 make_v3.py          Bangun .flp: 10 channel, 10 clip, track bernama
 build_all.py        Utilitas .flp: patch pyflp, buang channel, tulis playlist
+analyze.py          Deteksi chord per bar dari chroma CQT + chroma bass
 song.py             Mesin komposisi awal (osilator + ADSR + ekspor MIDI)
 
 chords.json         Chord per bar hasil deteksi librosa (77 bar)
@@ -120,6 +121,9 @@ Angka acuan hasil terakhir:
 - **Timbre orkestra masih sintetis.** Strings dibangun dari osilator sawtooth detuned + lowpass + vibrato — belum sampel nyata. Ini kelemahan terbesar aransemen sekarang.
 - **Mix lebih pelan 4,4 dB** dari referensi. Penyebabnya matematis: tujuh stem asli kalau dijumlah saja sudah peak +0,34 dBFS, jadi untuk mencapai <−1 dB harus ada atenuasi ≥1,34 dB. Kalau mau lebih keras, perlu limiter — dan itu merusak linearitas mix.
 - **Chord detection 45/49 bar cocok** dengan template progresi; sisanya ambigu dan diambil dari progresi tetangga.
+
+Rincian lengkap setiap masalah — angka terukur, penyebab, dan langkah perbaikannya —
+ada di **[TODO.md](TODO.md)**. Baca itu dulu sebelum melanjutkan.
 
 ---
 
