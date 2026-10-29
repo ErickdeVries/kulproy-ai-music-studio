@@ -25,6 +25,9 @@ build_all.py        Utilitas .flp: patch pyflp, buang channel, tulis playlist
 analyze.py          Deteksi chord per bar dari chroma CQT + chroma bass
 song.py             Mesin komposisi awal (osilator + ADSR + ekspor MIDI)
 
+analysis/           Skrip pengukur: tempo, grid, sinkron, peak, klik, chord
+                    -> lihat analysis/README.md untuk daftar & angka acuan
+
 chords.json         Chord per bar hasil deteksi librosa (77 bar)
 orch_levels.json    Level RMS tiap stem per bagian (A-E)
 orch_meta.json      Metadata sintesis: tuning, divisi, envelope
